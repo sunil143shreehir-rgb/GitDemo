@@ -1,10 +1,10 @@
 import pandas as pd
 import subprocess
 # load path
-file_path = r"C:\Users\SSD\Documents\GitDemo"
+file_path = r"E:\GitDemo"
 
 df = pd.read_excel(file_path + r"\data.xlsx")
-#df = pd.read_excel(r"C:\Users\SSD\Documents\GitDemo\data.xlsx")
+#df = pd.read_excel(r"E:\GitDemodata.xlsx")
 # Print data
 print(df)
 # Access a specific column
