@@ -1,0 +1,23 @@
+{
+  "name": "gitdemo",
+  "version": "1.0.0",
+  "description": "demo file\r <br>\r its created by Sunil Shreehir",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil143shreehir-rgb/GitDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sunil143shreehir-rgb/GitDemo/issues"
+  },
+  "homepage": "https://github.com/sunil143shreehir-rgb/GitDemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
