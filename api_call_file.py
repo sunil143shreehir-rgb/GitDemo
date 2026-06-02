@@ -1,4 +1,4 @@
-import requests
+import requests 
 from datetime import datetime, UTC, time, timedelta
 import zoneinfo
 import time
@@ -37,7 +37,6 @@ print("current time is :", dt1.strftime("%Y-%m-%d %H:%M:%S"))
 print("UTC Date & Time:", utc_time)
 print("Local Date & Time:", local_time)
 print("IST Time:", ist_time)
-
 
 # Convert to readable date
 #date_time = datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d %H:%M:%S")
