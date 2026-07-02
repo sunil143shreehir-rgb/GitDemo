@@ -44,9 +44,3 @@ def call_to_microsoft_edge():
     assert test_google_title() is not None, "Title does not match 'Google'" 
     return playwright, browser, page,context
 
-API_KEY = "0fb70df3b19231ce75c8e59f4c158a00"
-#city = "Mumbai"
-city = input("Enter city name: ")
-url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"  #calling the API 
-url2 = f"https://indian-railway-irctc.p.rapidapi.com/api/trains-search/v1/train"
-response = requests.get(url)
